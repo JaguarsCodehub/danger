@@ -25,7 +25,6 @@
 * Allow `import_dangerfile(path: '...')` to accept full path. - [@jkmathew](https://github.com/jkmathew) [#1380](https://github.com/danger/danger/pull/1380)
 * VSTS / Azure DevOps: Fix submission of inline comments with recent Ruby versions. - [@yanniks](https://github.com/yanniks)
 
-
 ## 8.6.1
 
 * Fix for `danger pr` posting results to provider. - [@bobbymcwho](https://github.com/bobbymcwho) [#1365](https://github.com/danger/danger/pull/1365)
@@ -33,7 +32,6 @@
 ## 8.6.0
 
 * Fix for branch names being able to trigger git commands - [@kyoshidajp](https://github.com/kyoshidajp ) [#1357](https://github.com/danger/danger/pull/1360)
-
 * Fix `diff_for_file` for deleted files - [@alexevanczuk](https://github.com/alexevanczuk) [#1357](https://github.com/danger/danger/pull/1357)
 
 ## 8.5.0
@@ -56,7 +54,7 @@
 
 ## 8.4.2
 
-Adds support for using GitHub auth via the ENV var `DANGER_GITHUB_BEARER_TOKEN`
+* Adds support for using GitHub auth via the ENV var `DANGER_GITHUB_BEARER_TOKEN`
 
 ## 8.4.1
 
@@ -87,7 +85,7 @@ Adds support for using GitHub auth via the ENV var `DANGER_GITHUB_BEARER_TOKEN`
 ## 8.2.3
 
 * Fix a test for Ruby 3.0 keyword arguments. - [@mataku](https://github.com/mataku)
-* Allow teriminal-table versions through 3.x - [@benasher44](https://github.com/benasher44)
+* Allow terminal-table versions through 3.x - [@benasher44](https://github.com/benasher44)
 * Comment on open gitlab MRs only for GitLab>=13.8.0 - [@asifmohd](https://github.com/asifmohd/)
 * Namespace the `Commits` class properly under `Danger`. [@rymai](https://github.com/rymai) [#1294](https://github.com/danger/danger/pull/1294)
 
@@ -127,7 +125,7 @@ Adds support for using GitHub auth via the ENV var `DANGER_GITHUB_BEARER_TOKEN`
 
 ## 8.0.4
 
-- Minor docs update, might also update the dockerfile
+* Minor docs update, might also update the dockerfile
 
 ## 8.0.3
 
